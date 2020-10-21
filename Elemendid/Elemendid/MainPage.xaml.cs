@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -25,15 +25,12 @@ namespace Elemendid
             StackLayout st = new StackLayout();
 
             st.Children.Add(Tbl_btn);
-            Content = st;
             Tbl_btn.Clicked += Tbl_btn_Clicked;
 
             st.Children.Add(Tbl_btn1);
-            Content = st;
             Tbl_btn1.Clicked += Tbl_btn1_Clicked;
 
             st.Children.Add(Tbl_btn2);
-            Content = st;
             Tbl_btn2.Clicked += Tbl_btn2_Clicked;
 
             st.Children.Add(Tbl_btn3);
@@ -41,20 +38,18 @@ namespace Elemendid
             Tbl_btn3.Clicked += Tbl_btn3_Clicked;
 
             st.Children.Add(Tbl_btn4);
-            Content = st;
             Tbl_btn4.Clicked += Tbl_btn4_Clicked;
 
             st.Children.Add(Tbl_btn5);
-            Content = st;
             Tbl_btn5.Clicked += Tbl_btn5_Clicked;
 
             st.Children.Add(Tbl_btn6);
-            Content = st;
             Tbl_btn6.Clicked += Tbl_btn6_Clicked;
 
             st.Children.Add(Tbl_btn7);
-            Content = st;
             Tbl_btn7.Clicked += Tbl_btn7_Clicked;
+
+            Content = st;
 
             //InitializeComponent();
             //Массив-план на день
