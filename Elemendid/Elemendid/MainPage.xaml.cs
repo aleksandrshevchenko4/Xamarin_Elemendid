@@ -91,12 +91,12 @@ namespace Elemendid
 
         private async void Tbl_btn1_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new Table_Page());
+            await Navigation.PushAsync(new Map());
         }
 
         private async void Tbl_btn_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new Table_Page());
+            await Navigation.PushAsync(new Page1());
         }
 
 
@@ -120,6 +120,6 @@ namespace Elemendid
                 //появляется всплывающее окно, где вместо переменных ktll, text отображаеются соответствующие значения
                 //await DisplayAlert(kell, text, "Jah");
             //}
-        }
+
     }
-//}
+}
